@@ -1,0 +1,113 @@
+* {
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
+    color: white;
+  }
+  
+  body {
+    background-image:url('https://img.freepik.com/free-vector/waiter-restaurant-well-trained-servant-wear-uniform-with-wineglass-tray-towel-hanging-hand-stand-served-table-with-red-tablecloth-chandelier-flowers-cartoon-vector-illustration_107791-9047.jpg?w=1380&t=st=1665477556~exp=1665478156~hmac=02bc89ce6482976670f86d279ed602d25e923629cffcc72dabb400d918f3facc');
+    background-repeat: no-repeat;
+    background-size:cover;
+  }
+  
+  .wrapper {
+    height: 525px; 
+    width: 360px; 
+    color: white;
+    background: #272639;
+    border-radius: 1.2rem;
+    padding: 1.2rem;
+     margin: 100px ;
+     position: relative;
+     visibility: 10%;
+  }
+
+  .imgs{
+    height: 525px; 
+    width: 360px; 
+    border-radius: 0rem;
+    /* padding: 1.2rem; */
+    margin: 100px 0 70px 300px ;
+  }
+.rounded{
+    height: 400px;
+}
+  #topContainer {
+    margin-top: 4rem;
+  }
+  
+  .container {
+    margin-top: 1.4rem;
+  }
+  
+  .title {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+  }
+  
+  .inputContainer {
+    background: #353959;
+    border-radius: 1.4rem;
+    padding: 0 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  #billTotalInput,
+  #tipInput {
+    font-size: 1.2rem;
+    background: none;
+    border: none;
+    outline: none;
+    padding: none;
+  }
+  
+  .buttonContainer {
+    background: #8990ec;
+    display: grid;
+    place-items: center;
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+  }
+  
+  .splitButton {
+    background: none;
+    border: none;
+  }
+  
+  .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .splitButton {
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+  }
+  
+  .buttonText {
+    color: #353959 !important;
+  }
+  
+  .splitAmount {
+    font-size: 1.6rem;
+    margin: 0.8rem;
+  }
+  
+  #bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .totalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .total {
+    font-size: 2rem;
+  }
+  
